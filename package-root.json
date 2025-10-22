@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+"homepage": "https://ismetgokhan.github.io/PMO-Awards-Frontend/",
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+}
